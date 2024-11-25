@@ -1,0 +1,499 @@
+h1{
+    color: rgb(98, 53, 172);
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    box-shadow: -15px 11px 27px -3px rgba(217,152,152,0.75);
+-webkit-box-shadow: -15px 11px 27px -3px rgba(217,152,152,0.75);
+-moz-box-shadow: -15px 11px 27px -3px rgba(217,152,152,0.75);
+ 
+}
+#t1{
+    width: 500px;
+    height: 500px;
+    box-shadow: -15px 11px 27px -3px rgba(217,152,152,0.75);
+-webkit-box-shadow: -15px 11px 27px -3px rgba(217,152,152,0.75);
+-moz-box-shadow: -15px 11px 27px -3px rgba(217,152,152,0.75);
+}
+.rim{
+    background-color: rgb(250, 247, 243);
+}
+.cc{
+background-color: #e9c4e6;
+     display: flex;
+    justify-content: space-around;
+   align-items: center;
+    margin-bottom: 30px;
+}
+.c1{
+    color: rgb(112, 0, 216);
+
+}
+.r0{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+.r1{
+ margin-left: 60px;
+}
+.r2{
+    width: 450px;
+    height: 350px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    justify-content: space-around;
+    margin-left: 50px;
+
+}
+.div{
+  display: flex;
+  margin-left: 100px;
+  font-style: var(#f1a1eb);
+}
+.vv{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   margin-left: 50px;
+   margin-right: 50px;
+  /* background-color: rgb(253, 174, 236); */
+  margin-top: 10px;
+
+}
+.v1{
+    background-color: pink;
+}
+.v2{
+    background-color: rgb(238, 150, 164);
+}
+.v3{
+    background-color: rgb(197, 144, 153);
+
+}
+.v4{
+    background-color: rgb(216, 129, 204);
+}
+.cv{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+}
+#vc{
+    width: 390px;
+    height: 550px;
+}
+.b0{ 
+  /* margin-top: 200px; */
+margin-right: 150;}
+
+.ro{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.ri{
+    margin-right:600px ;
+}
+.c9{
+    display: flex;
+    justify-content: space-around;
+}
+.deuxieme-mot {
+    color: rgb(184, 57, 156); /* Changer la couleur selon votre préférence */
+  }
+  .image-container {
+    width: 300px; /* Largeur du cadre */
+    height: 200px; /* Hauteur du cadre */
+    padding: 10px; /* Espacement entre l'image et le cadre */
+    border: 2px solid #e66ed2; /* Bordure du cadre */
+    box-sizing: border-box; /* S'assurer que la bordure ne dépasse pas la taille spécifiée */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3d9f0; /* Optionnel : couleur de fond pour le cadre */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Pour garder les proportions de l'image sans la déformer */
+  }
+  .ir{
+    size: 100px;
+    
+  }
+  .image-container {
+  position: relative; /* Pour permettre le positionnement absolu du prix */
+  display: inline-block; /* Pour que l'image et le prix soient considérés comme un bloc unique */
+}
+
+.image-container img {
+  width: 100%; /* Vous pouvez ajuster la taille de l'image comme nécessaire */
+  height: auto;
+}
+
+.prix {
+  position: absolute; /* Permet de positionner le prix par rapport à l'image */
+  bottom: 10px; /* Espace entre le bas de l'image et le prix */
+  left: 10px; /* Espace entre la gauche de l'image et le prix */
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité du prix */
+  color: rgb(238, 231, 234); /* Couleur du texte */
+  padding: 5px 10px; /* Espacement autour du texte du prix */
+  font-size: 18px; /* Taille du texte du prix */
+  font-weight: bold; /* Pour rendre le prix plus visible */
+}
+.c4{
+    margin-top: 160px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+background-color: rgb(240, 222, 237);  
+}
+.social-icons {
+    display: flex;
+    gap: 20px; /* Espacement entre les icônes */
+    justify-content: center; /* Centrer les icônes */
+  }
+  
+  .social-icons a {
+    font-size: 30px; /* Taille des icônes */
+    color: #333; /* Couleur par défaut des icônes */
+    text-decoration: none; /* Enlever le soulignement des liens */
+  }
+  
+  .social-icons a:hover {
+    color: #f1a1eb; /* Changer la couleur au survol */
+  }
+  .contact-info {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .contact-item {
+    margin-bottom: 10px; /* Espacement entre les éléments */
+  }
+  
+  .contact-item i {
+    color: #e7ace4; /* Couleur des icônes */
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+    font-size: 20px; /* Taille de l'icône */
+  }
+  
+  .contact-item a {
+    color: #111011; /* Couleur du texte des liens */
+    text-decoration: none; /* Enlever le soulignement des liens */
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline; /* Souligner le lien au survol */
+  }
+  
+  .contact-item span {
+    color: #333333; /* Couleur de l'adresse */
+  }
+  .nn{
+    margin-top: 50px;
+  }
+  .vv{
+    margin-top: 50px;
+    padding: 10px;
+  }
+  .image-container {
+    position: relative; /* Positionne le conteneur de l'image */
+    display: inline-block; /* Pour que l'image et le texte soient considérés comme un bloc unique */
+  }
+  
+  .image-container img {
+    width: 100%; /* Vous pouvez ajuster la taille de l'image selon votre besoin */
+    height: auto;
+  }
+  
+  .image-name {
+    position: sticky; /* Permet de positionner le texte par rapport à l'image */
+    top: 10px; /* Distance depuis le haut de l'image */
+    right: 10px; /* Distance depuis la droite de l'image */
+    background-color: rgba(253, 6, 130, 0.5); /* Fond semi-transparent pour améliorer la lisibilité */
+    color: white; /* Couleur du texte */
+    padding: 5px 10px; /* Espacement autour du texte */
+    font-size: 18px; /* Taille du texte */
+    font-weight: bold; /* Rendre le texte plus visible */
+  }
+  .zoom-image {
+    width: 300px;
+    height: 200px;
+    transition: transform 0.3s ease; /* Ajoute une transition fluide */
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.2); /* Agrandit l'image de 20% au survol */
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .favorite-icon:hover {
+    color: red; /* Change la couleur au survol */
+  }
+  
+  .shopping-cart {
+    position: relative;
+    font-size: 40px;  /* Taille de l'icône */
+    color: #333;  /* Couleur de l'icône */
+    cursor: pointer;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;  /* Badge de notification */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* Import de la police manuscrite */
+
+  h1.drawn-text {
+    font-family: 'Dancing Script', cursive; /* Applique la police manuscrite */
+    font-size: 48px;
+    color: #2c3e50;
+    text-align: center;
+    white-space: nowrap; /* Évite que le texte se mette sur plusieurs lignes */
+    overflow: hidden; /* Cache le texte non encore dessiné */
+    border-right: 4px solid #2c3e50; /* Crée un curseur comme une écriture manuelle */
+    width: 0;
+    animation: drawText 4s steps(30) forwards, blinkCursor 0.75s step-end infinite;
+  }
+  
+  @keyframes drawText {
+    to {
+      width: 100%; /* Permet au texte de se déployer progressivement */
+    }
+  }
+  
+  @keyframes blinkCursor {
+    50% {
+      border-color: transparent; /* Le curseur clignote */
+    }
+  }
+  .mir{
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+  /* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Conteneur principal de la page */
+.contact-container {
+  display: flex;
+  justify-content: space-around; /* Espacement entre les colonnes */
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Style de chaque bloc (colonne) */
+.contact-item {
+  justify-content: space-around;
+
+  margin-top: 30px;
+  display: flex;
+  align-items: center; /* Aligne l'icône et le texte */
+  gap: 10px; /* Espace entre l'icône et le texte */
+  font-size: 18px;
+  color: #333;
+}
+
+/* Icônes Font Awesome */
+.contact-item i {
+  font-size: 24px; /* Taille de l'icône */
+  color: #2c3e50; /* Couleur des icônes */
+}
+
+/* Style pour les écrans plus petits (ex. mobile) */
+@media (max-width: 768px) {
+  .contact-container {
+      flex-direction: column; /* Colonne unique sur petits écrans */
+      align-items: center; /* Centrer les éléments */
+  }
+
+  .contact-item {
+      margin-bottom: 20px; /* Espacement vertical entre les éléments */
+  }
+}
+.login{
+  margin-top: 30px;
+  margin-left:580px;
+  
+}
+.h5{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.login-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column; /* Aligne les boutons verticalement */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style des éléments de connexion */
+.login-item {
+  width: 100%;
+  max-width: 300px; /* Limite la largeur des boutons */
+  margin-bottom: 20px; /* Espacement entre les boutons */
+}
+
+/* Style des boutons */
+.login-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Style spécifique au bouton Google */
+.google .login-button {
+  background-color: #db4437; /* Couleur de fond de Google */
+  color: white;
+}
+
+.google .login-button i {
+  margin-right: 10px; /* Espace entre l'icône et le texte */
+}
+
+/* Style spécifique au bouton Facebook */
+.facebook .login-button {
+  background-color: #4267B2; /* Couleur de fond de Facebook */
+  color: white;
+}
+
+.facebook .login-button i {
+  margin-right: 10px; /* Espace entre l'icône et le texte */
+}
+
+/* Effet au survol des boutons */
+.login-button:hover {
+  opacity: 0.9;
+}
+
+/* Effet de focus pour l'accessibilité */
+.login-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.form-container {
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 100%;
+  max-width: 500px; /* Limite la largeur à 500px */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Style du formulaire */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacement entre les champs */
+}
+
+/* Style des groupes d'input (champs de formulaire) */
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style des labels */
+.input-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Style des champs de saisie (inputs) */
+.input-group input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 100%; /* Prend toute la largeur du formulaire */
+}
+
+.input-group input:focus {
+  border-color: #007bff; /* Changer la couleur de la bordure au focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombre légère au focus */
+}
+
+/* Style du bouton */
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3; /* Change la couleur au survol */
+}
+
+button:active {
+  background-color: #003d7a; /* Change la couleur au clic */
+}
